@@ -1,0 +1,76 @@
+body{
+	background-color: #325050 ;
+	font-family: 'Times New Roman';
+}
+h1{
+	color: white;
+}
+
+div._headList{
+	display: flex;
+    justify-content: center;
+	padding: 5px;
+	text-align: center;
+}
+
+input[type=text] {
+    width:  200px;
+    height: 30px;
+}
+input[type=checkbox]{
+	margin-right: 20px;
+	margin-left: 20px;
+}
+div._newElementBar{
+	display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+button{
+	border: none;
+	margin: 0;
+}
+
+div._newElementBar button{
+	background-color: #d8d8d8;
+	width: 100px;
+	height: 35px;
+}
+
+#res{
+	background-color: #a43434;
+}
+
+div._workList{
+	width: 400px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin: 0 auto;
+}
+div._workList li{
+	display: flex;
+	background-color: white;
+	width: 500px;
+	height: 50px;
+}
+
+div._workList li > div{
+	display: flex;
+	align-items: center;
+	width: 100%;
+}
+
+div._workList li:nth-child(1){
+	background-color: #878787;
+}
+div._workList li:nth-child(2){
+	background-color: #d8d8d8;
+}
+div._workList li:nth-child(3){
+	background-color: white;
+}
+ol{
+	padding: 0px;
+}
